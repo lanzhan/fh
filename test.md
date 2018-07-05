@@ -1,6 +1,5 @@
-#
 将本地文件上传到git仓库
-##
+=========
 1\.使用命令mkdir 文件名新建文件到桌面
 
 2\.使用cd 文件名 打开该文件
@@ -30,13 +29,13 @@
 14\.使用命令git push -u origin master将本地仓库的内容上传到自己的git仓库
 
 15\.我使用该命令上传时报错
-###
-15.1\.错误信息：error: src refspec master does not match any.
+
+>15.1\.错误信息：error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
 
-15.2\.引起错误原因：目录中没有文件，空目录是不能提交上去的
+>15.2\.引起错误原因：目录中没有文件，空目录是不能提交上去的
 
-15.3\.解决办法：$ touch README
+>15.3\.解决办法：$ touch README
 git commit -m 'first commit'
 git push origin master
 ##
