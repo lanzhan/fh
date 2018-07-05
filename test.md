@@ -10,25 +10,25 @@
 
 - 5\.使用git status查看当前文件夹
 
-6\.使用git add .将该文件夹下的所有文件添加到仓库
+- 6\.使用git add .将该文件夹下的所有文件添加到仓库
 
-7\.使用git commit -m把项目提交到仓库
+- 7\.使用git commit -m把项目提交到仓库
 
-8\.创建SSH KEY（由于本地Git仓库和Github仓库之间的传输是通过SSH加密的）命令为$ ssh-keygen -t rsa -C "fan.hui@zhongfl.com"回车几次，直到该命令结束，就会发现c盘下的administrator里面有.ssh文件夹，.ssh文件包含id_rsa和id_rsa.pub这两个文件 
+- 8\.创建SSH KEY（由于本地Git仓库和Github仓库之间的传输是通过SSH加密的）命令为$ ssh-keygen -t rsa -C "fan.hui@zhongfl.com"回车几次，直到该命令结束，就会发现c盘下的administrator里面有.ssh文件夹，.ssh文件包含id_rsa和id_rsa.pub这两个文件 
 
-9\.登录自己的git
+- 9\.登录自己的git
 
-10\.找到settings
+- 10\.找到settings
 
-11\.新建一个ssh key，使用id_rsa.pub里的内容成功新建一个shh key
+- 11\.新建一个ssh key，使用id_rsa.pub里的内容成功新建一个shh key
 
-12\.在git上创建一个仓库
+- 12\.在git上创建一个仓库
 
-13\.将创建好的仓库与本地仓库连接，使用 git remote add origin git@github.com:lanzhan/fh.git命令
+- 13\.将创建好的仓库与本地仓库连接，使用 git remote add origin git@github.com:lanzhan/fh.git命令
 
-14\.使用命令git push -u origin master将本地仓库的内容上传到自己的git仓库
+- 14\.使用命令git push -u origin master将本地仓库的内容上传到自己的git仓库
 
-15\.使用该命令上传时报错
+- 15\.使用该命令上传时报错
 
 >15.1\.错误信息：error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
@@ -39,4 +39,4 @@ error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
 git commit -m 'first commit'
 git push origin master
 
-16\.会跳出对话框请求登录git，输入用户名与密码可以上传到自己的git
+- 16\.会跳出对话框请求登录git，输入用户名与密码可以上传到自己的git
