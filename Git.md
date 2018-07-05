@@ -1,3 +1,12 @@
+
+分支的建立、切换、删除、上传，远程分支和本地分支的操作
+==============
+*1\.创建分支git branch
+*2\.切换分支git checkout
+*3\.合并分支git merge
+*4\.创建新分支并立即切换到该分支下git checkout -b
+*5\.删除分支git branch -d
+
 Git常用命令
 ============
 #
@@ -14,5 +23,5 @@ config
 add
 ##
 *1\.添加该目录及其子目录下的txt文件： git add documentation/*.txt
+
 *2\.添加脚本：git add git-*.sh
-*3\.
