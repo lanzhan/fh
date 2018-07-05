@@ -28,7 +28,7 @@
 
 14\.使用命令git push -u origin master将本地仓库的内容上传到自己的git仓库
 
-15\.我使用该命令上传时报错
+15\.使用该命令上传时报错
 
 >15.1\.错误信息：error: src refspec master does not match any.
 error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
