@@ -31,7 +31,6 @@ Git常用命令
 ============
 #
 config
-
 ##
 * 1\.设置用户名：git config --global user.name"你的用户名"
 
@@ -49,7 +48,6 @@ config
 
 #
 add
-
 ##
 * 1\.添加该目录及其子目录下的txt文件： git add documentation/*.txt
 
