@@ -38,5 +38,5 @@ error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
 >15.3\.解决办法：$ touch README
 git commit -m 'first commit'
 git push origin master
-##
+
 16\.会跳出对话框请求登录git，输入用户名与密码可以上传到自己的git
