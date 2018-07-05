@@ -1,5 +1,7 @@
 #1\.先在官网上下载git
+=============
 #2\.配置本地连接
+=============
 #3\.可以使用命令mkdir 文件名新建文件到桌面
 #4\.使用cd 文件名 打开该文件
 #5\.使用git init把该文件夹变成Git可管理的仓库
@@ -21,4 +23,4 @@ error: failed to push some refs to 'https://github.com/lanzhan/fh.git'
 ##17.3\.解决办法：$ touch README
 git commit -m 'first commit'
 git push origin master
-##18\.会跳出对话框请求登录git，输入用户名与密码可以上传到自己的git
+#18\.会跳出对话框请求登录git，输入用户名与密码可以上传到自己的git
