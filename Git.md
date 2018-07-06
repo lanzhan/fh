@@ -6,20 +6,31 @@
 * 1\.创建分支git branch new_master(创建了一个新分支，名字叫做new_master)
 
 >此时可以使用 git branch语句查看所在的分支
->>
+
+>> ![1](http://chuantu.biz/t6/339/1530870739x-1376440096.png)
+
 * 2\.切换分支git checkout new_master
 
 > * a\.当前分支为master，可使用该语句切换分支到new_master,此时再使用git branch 语句可看到所在分支变为new_master
->>
+
+>> ![1](http://chuantu.biz/t6/339/1530870841x-1376440096.png)
+
 > * b\.接下来我们使用该分支上传一些文件到仓库里，使用 git add fan.txt 将文件fan添加到仓库，使用git commit -m "new fan complete."语句提交
->>
+
+>> ![1](http://chuantu.biz/t6/339/1530870355x-1376440096.png)
+
 > * c\.如下图所示，我们返回到上级目录下，切换分支查看我们的fan.txt会找不到，再切回new_master查看可以进去，证明一个分支里建的项目另一分支是没有的
->>
+
+>> ![1](http://chuantu.biz/t6/339/1530870185x-1376440096.png)
+
 * 3\.合并分支git merge new_master
 
 > 使用该命令将两个分支合并到一起，此时使用分支master查看fan.txt也可以查看了
 
 * 4\.删除分支git branch -d
+
+> ![1](http://chuantu.biz/t6/339/1530870430x-1376440096.png)
+
 
 远程
 -----
@@ -92,30 +103,50 @@
 查看日志命令
 ======
 * 1\.列出历史提交记录 git log
->>
+
+> ![1](http://chuantu.biz/t6/339/1530869681x-1376440096.png)
+
 * 2\.使用git show aa6875命令列出aa6875开头的操作
->>
+
+> ![1](http://chuantu.biz/t6/339/1530869357x-1376440096.png)
+
 * 3\.使用git diff 5bdde0..aa6875可查看两次更改的不同
->>
+
+> ![1](http://chuantu.biz/t6/339/1530869520x-1376440096.png)
+
 * 4\.使用git difftool可查看到第一次与最后一次比较的全部更改
->>
+
+> ![1](http://chuantu.biz/t6/339/1530869606x-1376440096.png)
+
 * 5\.查看历史记录的简洁的版本 git log --oneline
->>
+
+> ![a](http://chuantu.biz/t6/339/1530869473x-1376440096.png)
+
 * 6\.查看历史中什么时候出现了分支、合并 git log --oneline --graph
+
+> ![a](http://chuantu.biz/t6/339/1530869728x-1376440096.png)
 
 查看信息
 ======
 * 1\.git show master查看master分支
->>
+
+> ![a](http://chuantu.biz/t6/339/1530869431x-1376440096.png)
+
 * 2\.git show HEAD^查看HEAD的上一级信息
->>
+
+> ![a](http://chuantu.biz/t6/339/1530869202x-1376440096.png)
+
 * 3\.git tag V3 aa6875 用V3来代替复杂的名称(以aa6875为例)
->>
+
 * 4\.git show  V3 查看V3
->>
+
+> ![a](http://chuantu.biz/t6/339/1530869128x-1376440096.png)
+
 * 6\.git cat-file -t ...查看对象（....）类型
 
 * 7\.git cat-file commit ...... 查看一个commit类型的对象
+
+> ![a](http://chuantu.biz/t6/339/1530869835x-1376440096.png)
 
 合并冲突及解决办法
 =======
