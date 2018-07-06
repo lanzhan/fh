@@ -117,3 +117,8 @@
 
 * 12\.再次提交，成功
 > ![a](http://chuantu.biz/t6/339/1530867181x-1404817659.png )
+> ![a](http://chuantu.biz/t6/339/1530867249x-1376440096.png )
+> ![a](http://chuantu.biz/t6/339/1530867308x-1376440096.png)
+> ![a](http://chuantu.biz/t6/339/1530867326x-1376440096.png)
+> ![a](http://chuantu.biz/t6/339/1530867347x-1376440096.png)
+> ![a](http://chuantu.biz/t6/339/1530867367x-1376440096.png)
