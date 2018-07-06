@@ -48,11 +48,13 @@
 
 > * a\.git fetch origin master 从远程的origin的分支master上下载最新版到本地分支master上
 
+>> ![1](http://chuantu.biz/t6/339/1530871199x-1376440096.png)
+
 > * b\.git log -p master..origin/master比较远程分支和本地分支的差别
 
-> * c\.get merge origin/master手动进行合并
+>> ![1](http://chuantu.biz/t6/339/1530871236x-1376440096.png)
 
->>
+> * c\.get merge origin/master手动进行合并
 
 * 4\.git pull origin master 从远程获取最新版本到本地并且直接合并，相当于fetch和merge两个过程
 
