@@ -28,7 +28,7 @@
 > * a\.git checkout -b user origin/master在本地新建分支名为user,并切换到该分支下
 
 > * b\.git fetch origin master:user1在本地新建分支名为user1，但并不切换到分之下，可以手动切换
->>
+>> ![1](http://chuantu.biz/t6/339/1530867612x-1376440096.png)
 * 3\.git fetch相关命令的使用：该命令相当于从远程获取最新版本到本地，但是不会自动合并
 
 > * a\.git fetch origin master 从远程的origin的分支master上下载最新版到本地分支master上
