@@ -116,4 +116,4 @@
 * 11\.编辑完保存退出
 
 * 12\.再次提交，成功
-> ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+> ![美丽花儿](http://note.youdao.com/noteshare?id=f1e6dc19dc46f6961276f1bcbe802c8c "美丽花儿")
