@@ -24,11 +24,15 @@
 远程
 -----
 * 1\.查看远程所有分支 git branch -rll
+
 * 2\.拉取远程分支，并创建本地分支
+
 > * a\.git checkout -b user origin/master在本地新建分支名为user,并切换到该分支下
 
 > * b\.git fetch origin master:user1在本地新建分支名为user1，但并不切换到分之下，可以手动切换
+
 >> ![1](http://chuantu.biz/t6/339/1530867612x-1376440096.png)
+
 * 3\.git fetch相关命令的使用：该命令相当于从远程获取最新版本到本地，但是不会自动合并
 
 > * a\.git fetch origin master 从远程的origin的分支master上下载最新版到本地分支master上
@@ -36,9 +40,13 @@
 > * b\.git log -p master..origin/master比较远程分支和本地分支的差别
 
 > * c\.get merge origin/master手动进行合并
+
 >>
+
 * 4\.git pull origin master 从远程获取最新版本到本地并且直接合并，相当于fetch和merge两个过程
->
+
+> ![1](http://chuantu.biz/t6/339/1530868070x-1376440096.png)
+
 * 5\.git push origin master 将本地的master分支推送到远程master上，如果本地master分支不存在，则会新建一个
 
 >如图所示 使用git push origin master 报错
@@ -46,20 +54,33 @@
 >>错误信息： failed to push some refs to 'https://github.com/lanzhan/fh.git'
 
 >>解决方法：将 git push origin master命令  改为git push -f origin master
->>
+
+>> ![1](http://chuantu.biz/t6/339/1530868206x-1376440096.png)
+
 * 6\.git push origin : master与git push origin --delete master作用相同，都是删除指定的远程分支，等同于推送一个空的本地分支到远程分支
->
+
+> ![1](http://chuantu.biz/t6/339/1530868568x-1376440096.png)
+
 * 7\. git push origin 将当前分支推送到主机的对应分支
->
+
+> ![1](http://chuantu.biz/t6/339/1530868508x-1376440096.png)
+
 > 如果当前分支只有一个追踪分支，那么主机名都可以省略。直接写 git push
->
+
+> ![1](http://chuantu.biz/t6/339/1530868462x-1376440096.png)
 
 * 8\. git push -all origin会将本地所有的分支都推送到主机origin上，没有的远程分支会被创建
->
+
+> ![1](http://chuantu.biz/t6/339/1530868415x-1376440096.png)
+
 * 9\.git push origin HEAD将当前分支推送到origin上，没有的话会被创建
->
+
+> ![1](http://chuantu.biz/t6/339/1530868364x-1376440096.png)
+
 * 10\.git push origin HEAD : master将当前主机推送到origin的master分支上
->
+
+> ![1](http://chuantu.biz/t6/339/1530868312x-1376440096.png)
+
 * 11\.git remote的相关操作，查看及新建
 >
 
@@ -99,9 +120,15 @@
 
 * 3\.编辑文件之前建好的test.txt文件
 
+> ![a](http://chuantu.biz/t6/339/1530867181x-1404817659.png )
+
 * 4\.提交
 
+> ![a](http://chuantu.biz/t6/339/1530867249x-1376440096.png )
+
 * 5\.切换回master分支 
+
+> ![a](http://chuantu.biz/t6/339/1530867308x-1376440096.png)
 
 * 6\.再次提交master
 
@@ -109,22 +136,16 @@
 
 * 8\.报错了
 
+> ![a](http://chuantu.biz/t6/339/1530867326x-1376440096.png)
+
 * 9\.查看状态，显示test.TXT错误
 
 * 10\.vim编辑该文档
 
 * 11\.编辑完保存退出
 
-* 12\.再次提交，成功
-
-> ![a](http://chuantu.biz/t6/339/1530867181x-1404817659.png )
-
-> ![a](http://chuantu.biz/t6/339/1530867249x-1376440096.png )
-
-> ![a](http://chuantu.biz/t6/339/1530867308x-1376440096.png)
-
-> ![a](http://chuantu.biz/t6/339/1530867326x-1376440096.png)
-
 > ![a](http://chuantu.biz/t6/339/1530867347x-1376440096.png)
+
+* 12\.再次提交，成功
 
 > ![a](http://chuantu.biz/t6/339/1530867367x-1376440096.png)
